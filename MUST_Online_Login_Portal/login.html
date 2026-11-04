@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MUST - Online Application Portal</title>
+
+    <!-- Connect this page to the CSS design. -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Load Font Awesome for the icons. -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- University logo and heading. -->
+    <header>
+        <img src="must-logo.png" alt="MUST Logo" class="must-logo">
+
+        <h1>MBARARA UNIVERSITY OF SCIENCE AND TECHNOLOGY</h1>
+
+        <p class="subtitle">Online Application Portal</p>
+    </header>
+
+    <main>
+        <div class="login-container">
+
+            <h2>Welcome Back!</h2>
+
+            <p class="description">
+                Log in to access your university account.
+            </p>
+
+            <!-- The ID allows JavaScript to find this form. -->
+            <form action="#" method="post" id="loginForm">
+
+                <label for="email">Email Address</label>
+
+                <div class="input-container">
+                    <i class="fa-solid fa-envelope input-symbol"></i>
+
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           placeholder="Enter your email address"
+                           required>
+                </div>
+
+                <label for="password">Password</label>
+
+                <div class="input-container">
+                    <i class="fa-solid fa-key input-symbol"></i>
+
+                    <input type="password"
+                           id="password"
+                           name="password"
+                           placeholder="Enter your password"
+                           required>
+
+                    <!-- This button shows or hides the password. -->
+                    <button type="button"
+                            class="password-toggle"
+                            data-target="password"
+                            aria-label="Show password"
+                            title="Show password"
+                            style="width:auto; background-color:transparent; color:black; border:none; padding:8px; font-size:16px;">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+                </div>
+
+                <!-- Forgot password link. -->
+                <div class="forgot-password">
+                    <a href="#">Forgot your password?</a>
+                </div>
+
+                <button type="submit">Sign In</button>
+
+            </form>
+
+            <p class="signup-link">New to the portal?</p>
+
+            <!-- Links to the other portal pages. -->
+            <div class="portal-buttons">
+
+                <a href="register.html" class="portal-button">
+                    Create Account
+                </a>
+
+                <a href="how_to_apply.html" class="portal-button">
+                    How to Apply
+                </a>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mbarara University of Science and Technology.</p>
+    </footer>
+
+    <!-- Load JavaScript after the page elements. -->
+    <script src="script.js"></script>
+
+</body>
+</html>
