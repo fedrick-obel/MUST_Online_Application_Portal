@@ -1,8 +1,6 @@
 # MUST_Online_Application_Portal
 A replica of the MUST Online Application Portal login and registration pages built with HTML, CSS, and JavaScript.
 
-# MUST Online Application Portal
-
 ## Project Description
 A web-based MUST Online Application Portal featuring login, registration and application guidance pages.
 
@@ -19,7 +17,7 @@ A web-based MUST Online Application Portal featuring login, registration and app
 - HTML
 - CSS
 - JavaScript
-- Font Awesome
+
 
 ## Project Purpose
 Developed as part of the Internet Technology and Web Design coursework at Mbarara University of Science and Technology (MUST).
